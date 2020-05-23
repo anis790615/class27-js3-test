@@ -28,7 +28,7 @@ function numbersFromOneToHundred() {
     }
   }
 }
-// numbersFromOneToHundred();
+numbersFromOneToHundred();
 
 /*
 2.
@@ -48,12 +48,12 @@ function createButton() {
   document.body.insertBefore(image, jsScript);
 }
 
-// createButton();
-// document.querySelector("button").addEventListener("click", () => {
-//   document.querySelector("img").src =
-//     "https://avatars3.githubusercontent.com/u/20858568?s=200&v=4";
-//   document.querySelector("button").style.display = "none";
-// });
+createButton();
+document.querySelector("button").addEventListener("click", () => {
+  document.querySelector("img").src =
+    "https://avatars3.githubusercontent.com/u/20858568?s=200&v=4";
+  document.querySelector("button").style.display = "none";
+});
 /* 
 3. 
 Answer the following questions:
@@ -89,7 +89,7 @@ async function fetchThreeUsers() {
     list.appendChild(listItem);
   }
 }
-// fetchThreeUsers();
+fetchThreeUsers();
 /*
 5.
 a) Create a class, called Person, that includes:
@@ -174,7 +174,7 @@ function showChart() {
     },
   });
 }
-showChart();
+// showChart();
 
 /*
 I am not familiar with this library syntax, so I copied the example form the library's page. I chose the cdn as the method for installation, because I didn't want to initialize a project and install it using npm. After making the link to the library's CDN in the script source I copied the code from the library, and put it into a function that I executed it. I added the element of the canvas in the function so that I don't add it in the html file. Added the id and the attributes so it resembles the one in the example, changed var to consts, and it worked. If I had more time I would have changed the graph data set to something more common, for example # of students in each class of Hack your Future
